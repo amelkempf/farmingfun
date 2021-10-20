@@ -1,7 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"CharacterDesign","path":"rooms/CharacterDesign/CharacterDesign.yy",},"order":1,},
-    {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":0,},
+    {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},"order":4,},
+    {"id":{"name":"rm_game_level1","path":"rooms/rm_game_level1/rm_game_level1.yy",},"order":3,},
+    {"id":{"name":"rm_character","path":"rooms/rm_character/rm_character.yy",},"order":1,},
+    {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":0,},
+    {"id":{"name":"rm_market","path":"rooms/rm_market/rm_market.yy",},"order":2,},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -17,8 +21,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
-    {"roomId":{"name":"CharacterDesign","path":"rooms/CharacterDesign/CharacterDesign.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_character","path":"rooms/rm_character/rm_character.yy",},},
+    {"roomId":{"name":"rm_market","path":"rooms/rm_market/rm_market.yy",},},
+    {"roomId":{"name":"rm_game_level1","path":"rooms/rm_game_level1/rm_game_level1.yy",},},
+    {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

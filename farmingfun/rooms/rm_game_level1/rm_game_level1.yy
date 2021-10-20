@@ -46,7 +46,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TitleScreen",
+  "name": "rm_game_level1",
   "tags": [],
   "resourceType": "GMRoom",
 }

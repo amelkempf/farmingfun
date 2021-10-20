@@ -46,7 +46,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "CharacterDesign",
+  "name": "rm_level2",
   "tags": [],
   "resourceType": "GMRoom",
 }
