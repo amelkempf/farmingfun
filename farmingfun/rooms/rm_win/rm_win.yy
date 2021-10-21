@@ -46,7 +46,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rm_game_level1",
+  "name": "rm_win",
   "tags": [],
   "resourceType": "GMRoom",
 }
