@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_corn","path":"sprites/spr_corn/spr_corn.yy",},"order":5,},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},"order":4,},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},"order":3,},
     {"id":{"name":"obj_farmer","path":"objects/obj_farmer/obj_farmer.yy",},"order":0,},
@@ -11,6 +12,7 @@
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":5,},
     {"id":{"name":"rm_market","path":"rooms/rm_market/rm_market.yy",},"order":2,},
     {"id":{"name":"spr_hats","path":"sprites/spr_hats/spr_hats.yy",},"order":4,},
+    {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},"order":6,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":6,},
     {"id":{"name":"spr_flannels","path":"sprites/spr_flannels/spr_flannels.yy",},"order":3,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
