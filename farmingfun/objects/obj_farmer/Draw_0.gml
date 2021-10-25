@@ -51,3 +51,6 @@ switch(spr_pants)
 	draw_sprite(spr_pants, 2, x, y+90);
 	break;
 }
+
+
+//inventory

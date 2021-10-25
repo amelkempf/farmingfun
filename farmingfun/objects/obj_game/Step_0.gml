@@ -1,3 +1,5 @@
+/* commeinting this out for now
+
 /// Basic Step for Room Switches
 if(keyboard_check_pressed(vk_enter)){
 	switch(room){
@@ -12,6 +14,8 @@ if(keyboard_check_pressed(vk_enter)){
 }
 }
 
+
+
 if(room == rm_level1){
 if(score  >= 1000){
 	room_goto(rm_level2);
@@ -25,3 +29,5 @@ if (){
 	room_goto(rm_win);
 	audio_play_sound();
 }
+
+*/
