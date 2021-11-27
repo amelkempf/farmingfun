@@ -1,10 +1,10 @@
 /// Basic Set up for Text in Different Rooms (needs to be changed)
 switch(room){
-	case rm_title:
+	case rm_title1:
 draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Farming Fun", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 200, @"Design your farmer and grow your farm to new extremes!
+	draw_text(room_width/2, 200, @"Design your own farm and level up to unlocknew and exciting animals!
 	
 	Complete the tutorial to learn how to expand your farm
 	
@@ -13,7 +13,19 @@ var c = c_white;
 	);
 	draw_set_halign(fa_left);
 break;
-
+	case rm_transition1:
+	draw_set_halign(fa_center)
+var c = c_white;
+	draw_text_transformed_color(room_width/2, 100, "Farming Fun", 3, 3, 0, c,c,c,c, 1);
+	draw_text(room_width/2, 200, @"Design your own farm and level up to unlocknew and exciting animals!
+	
+	Complete the tutorial to learn how to expand your farm
+	
+	>>PRESS ENTER TO START<<
+	"
+	);
+	draw_set_halign(fa_left);
+break;
 	case rm_level1:
 draw_text(20,20,"SCORE: "+string(score));
 draw_text(20,40,"LIVES: "+string(lives));
