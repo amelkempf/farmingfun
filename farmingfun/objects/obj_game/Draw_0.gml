@@ -1,10 +1,10 @@
-/// Basic Set up for Text in Different Rooms (needs to be changed)
+/// Basic Set up for Text in Different Rooms 
 switch(room){
 	case rm_title1:
 draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Farming Fun", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 200, @"Design your own farm and level up to unlocknew and exciting animals!
+	draw_text(room_width/2, 200, @"Design your own farm and level up to unlock new and exciting animals!
 	
 	Complete the tutorial to learn how to expand your farm
 	
@@ -13,40 +13,44 @@ var c = c_white;
 	);
 	draw_set_halign(fa_left);
 break;
+
 	case rm_transition1:
 	draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Farming Fun", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 200, @"Design your own farm and level up to unlocknew and exciting animals!
-	
-	Complete the tutorial to learn how to expand your farm
+	draw_text(room_width/2, 200, @" Before you can start designing your farm, you must design your farmer. Press ENTER to start customizing your farmer
 	
 	>>PRESS ENTER TO START<<
 	"
 	);
 	draw_set_halign(fa_left);
 break;
+
+case rm_customization:
+	draw_set_halign(fa_center)
+var c = c_white;
+	draw_text_transformed_color(room_width/2, 100, "Design your farmer", 3, 3, 0, c,c,c,c, 1);
+	draw_set_halign(fa_left);
+	break;
+	
+	case rm_transition2:
+	draw_set_halign(fa_center)
+var c = c_white;
+	draw_text_transformed_color(room_width/2, 100, "Now that you have created your farmer, let’s start building your farm.", 3, 3, 0, c,c,c,c, 1);
+	draw_set_halign(fa_left);
+	break;
+	
 	case rm_level1:
-draw_text(20,20,"SCORE: "+string(score));
-draw_text(20,40,"LIVES: "+string(lives));
-break;
-
-
-case rm_level2:
-draw_set_halign(fa_center)
-var c = c_red;
-	draw_text_transformed_color(room_width/2, 150, "GAME OVER", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 250,"FINAL SCORE: "+string(score));
-		draw_text(room_width/2, 300,"PRESS ENTER TO RESTART");
+	draw_set_halign(fa_center)
+var c = c_white;
+	draw_text_transformed_color(room_width/2, 100, "Welcome to Farming Fun! Let’s start by planting your first crop. Go the market and buy a plot of corn. Then place the corn on your farm. Water your crop to until it is fully grown and you are able to harvest it. Growing your crops allows you to gain XP and helps along the path of leveling up. Continue planting and growing corn until you have reached level 2.", 3, 3, 0, c,c,c,c, 1);
 	draw_set_halign(fa_left);
-break;
-
-case rm_market:
-draw_set_halign(fa_center)
-var c = c_lime;
-	draw_text_transformed_color(room_width/2, 100, "YOU WON!", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 300,"PRESS ENTER TO RESTART"
-	);
+	break;
+	
+	case rm_level1:
+	draw_set_halign(fa_center)
+var c = c_white;
+	draw_text_transformed_color(room_width/2, 100, "Congratulations … you have reached level 2!", 3, 3, 0, c,c,c,c, 1);
 	draw_set_halign(fa_left);
-break;
+	break;
 }
