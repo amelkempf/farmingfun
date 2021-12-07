@@ -14,7 +14,7 @@ enum item{
 }
 
 itemSprite[item.chicken] = spr_chicken;
-itemSprite[item.pig] = spr_pig;
+itemSprite[item.pig] = spr_pig2;
 itemSprite[item.cow] = spr_cow;
 itemSprite[item.coop] = spr_coop;
 itemSprite[item.pen] = spr_pen;
