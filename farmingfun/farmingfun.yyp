@@ -51,6 +51,7 @@
     {"id":{"name":"spr_pen","path":"sprites/spr_pen/spr_pen.yy",},"order":13,},
     {"id":{"name":"obj_pants","path":"objects/obj_pants/obj_pants.yy",},"order":14,},
     {"id":{"name":"spr_chicken","path":"sprites/spr_chicken/spr_chicken.yy",},"order":8,},
+    {"id":{"name":"spr_pig","path":"sprites/spr_pig/spr_pig.yy",},"order":18,},
     {"id":{"name":"obj_chicken","path":"objects/obj_chicken/obj_chicken.yy",},"order":6,},
     {"id":{"name":"obj_coop","path":"objects/obj_coop/obj_coop.yy",},"order":3,},
     {"id":{"name":"spr_milk","path":"sprites/spr_milk/spr_milk.yy",},"order":9,},
@@ -108,7 +109,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.583",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "farmingfun",
