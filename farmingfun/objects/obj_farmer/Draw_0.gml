@@ -1,5 +1,5 @@
 //Customization Section
-switch(hat)
+switch(spr_hats)
 {
 	case 0:
 	draw_sprite(spr_hats, 0, x, y);
@@ -12,19 +12,7 @@ switch(hat)
 	break;
 }
 
-switch(head)
-{
-	case 0:
-	draw_sprite(spr_head, 0, x, y+30);
-	break;
-	case 1:
-	draw_sprite(spr_head, 1, x, y+30);
-	break;
-	case 2:
-	draw_sprite(spr_head, 2, x, y+30);
-	break;
-}
-switch(flannels)
+switch(spr_flannels)
 {
 	case 0:
 	draw_sprite(spr_flannels, 0, x, y+60);
