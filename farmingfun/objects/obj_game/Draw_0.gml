@@ -48,7 +48,7 @@ var c = c_white;
 	draw_set_halign(fa_left);
 	break;
 	
-	case rm_level1:
+	case rm_level2:
 	draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Congratulations … you have reached level 2!", 3, 3, 0, c,c,c,c, 1);

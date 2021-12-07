@@ -59,7 +59,7 @@ if (sprite_exists(spr)) {
 //Draw description
 draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-		draw_text(_x, _y + 80, desc);
+		draw_text(_x, _y + 100, desc);
 	draw_set_valign(fa_left);
 draw_set_halign(fa_left);
 
