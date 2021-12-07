@@ -1,5 +1,6 @@
-//shop
+/*//shop
 if (global.shop) exit;
+*/ 
 
 //movement
 
