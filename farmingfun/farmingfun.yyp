@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_corn","path":"sprites/spr_corn/spr_corn.yy",},"order":5,},
     {"id":{"name":"item_pos","path":"scripts/item_pos/item_pos.yy",},"order":1,},
+    {"id":{"name":"obj_customizerarrow","path":"objects/obj_customizerarrow/obj_customizerarrow.yy",},"order":15,},
     {"id":{"name":"spr_coop","path":"sprites/spr_coop/spr_coop.yy",},"order":13,},
     {"id":{"name":"obj_hats","path":"objects/obj_hats/obj_hats.yy",},"order":12,},
     {"id":{"name":"snd_background2","path":"sounds/snd_background2/snd_background2.yy",},"order":5,},
@@ -39,6 +40,7 @@
     {"id":{"name":"spr_testman","path":"sprites/spr_testman/spr_testman.yy",},"order":16,},
     {"id":{"name":"spr_egg","path":"sprites/spr_egg/spr_egg.yy",},"order":11,},
     {"id":{"name":"rm_transition2","path":"rooms/rm_transition2/rm_transition2.yy",},"order":9,},
+    {"id":{"name":"spr_customizerarrow","path":"sprites/spr_customizerarrow/spr_customizerarrow.yy",},"order":18,},
     {"id":{"name":"obj_head","path":"objects/obj_head/obj_head.yy",},"order":11,},
     {"id":{"name":"rm_transition1","path":"rooms/rm_transition1/rm_transition1.yy",},"order":8,},
     {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},"order":6,},
