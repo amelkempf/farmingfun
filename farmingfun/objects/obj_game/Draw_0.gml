@@ -31,15 +31,13 @@ case rm_customization:
 	draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Design your farmer", 3, 3, 0, c,c,c,c, 1);
-	draw_text(room_width/2, 200, "(Left = Change Shirt; Down = Change Hat; Right = Change Pants)");
-	draw_text(room_width/2, 650, "When you are finished customizing your farmer: PRESS ENTER");
 	draw_set_halign(fa_left);
 	break;
 	
 	case rm_transition2:
 	draw_set_halign(fa_center)
 var c = c_white;
-	draw_text_transformed_color(room_width/2, 100, "Now that you have created your farmer, let’s start building your farm.", 2, 2, 0, c,c,c,c, 1);
+	draw_text_transformed_color(room_width/2, 100, "Now that you have created your farmer, let’s start building your farm.", 3, 3, 0, c,c,c,c, 1);
 	draw_set_halign(fa_left);
 	break;
 	
@@ -50,7 +48,7 @@ var c = c_white;
 	draw_set_halign(fa_left);
 	break;
 	
-	case rm_win:
+	case rm_level1:
 	draw_set_halign(fa_center)
 var c = c_white;
 	draw_text_transformed_color(room_width/2, 100, "Congratulations … you have reached level 2!", 3, 3, 0, c,c,c,c, 1);
